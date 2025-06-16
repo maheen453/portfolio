@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import "tailwindcss";
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Afacad Flux", sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.bg-image {
+  background-image: url("./assets/background.jpg");
+}

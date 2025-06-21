@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
+import project2 from "../assets/JAudio.png";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
@@ -41,15 +41,15 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/maheen453/personal-portfolio",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "JAudio",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
-    image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+      "Terminal based Java music application with store management, playable song lyrics/audiobook text, content download/search/sorting, and playlist creation.",
+    image: project2,
+    githubLink: "https://github.com/maheen453/JAudio",
   },
   {
     id: 3,

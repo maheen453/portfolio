@@ -7,7 +7,7 @@ const Projects = () => {
             <h2 className="mb-8 text-center text-3xl lg:text-4xl">Projects</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {PROJECTS.map((project) => (
-                    <div key={project.id} className="group relative overflow-hidden rounded-3xl">
+                    <div key={project.id} className="group relative overflow-hidden h-[350px] flex flex-col rounded-3xl">
                         <img src={project.image}
                             alt={project.name}
                             className="h-full w-full object-cover transition-transform duration-500

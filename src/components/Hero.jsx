@@ -3,7 +3,7 @@ import carlImg from "../assets/carl.jpeg"
 
 const Hero = () => {
     return (
-        <section className="flex md:min-h-screen flex-wrap items-center md:mt-1">
+        <section id="hero" className="flex md:min-h-screen flex-wrap items-center md:mt-1">
             <div className="w-full md:w-1/2">
                 <h2 className="my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]">
                     {HERO.name}

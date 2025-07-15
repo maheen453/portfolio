@@ -22,7 +22,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
-  {label: "Home", href: "#"},
+  {label: "Home", href: "#hero"},
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];

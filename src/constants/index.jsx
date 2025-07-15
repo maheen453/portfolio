@@ -22,7 +22,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
-  {label: "Home", href: "#hero"},
+  {label: "Home", href: "#home"},
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
@@ -41,7 +41,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/maheen453/personal-portfolio",
+    githubLink: "https://github.com/maheen453/portfolio",
   },
   {
     id: 2,

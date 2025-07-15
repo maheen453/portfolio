@@ -1,10 +1,10 @@
 import { HERO } from "../constants"
-import carlImg from "../assets/carl.jpeg"
+import MaheenProfile from "../assets/MaheenProfile.jpg";
 
 const Hero = () => {
     return (
-        <section id="hero" className="flex md:min-h-screen flex-wrap items-center md:mt-1">
-            <div className="w-full md:w-1/2">
+        <section id="home" className="flex md:min-h-screen flex-wrap items-center md:mt-1">
+            <div className="w-full md:w-1/2 md:border-l-8 border-b-4 md:border-b-0 border-white md:pl-5 text-center md:text-left">
                 <h2 className="my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]">
                     {HERO.name}
                 </h2>
@@ -15,9 +15,13 @@ const Hero = () => {
                     {HERO.description}
                 </p>
             </div>
-            <div className="max-w-full md:w-1/2 lg:p-8">
+            <div className=" max-w-full md:w-1/2 lg:p-8 ">
                 <div className="flex relative justify-center items-center flex-col">
-                    <img src={carlImg} width={550} height={550} alt="Maheen Qayyum" className="rounded-3xl" />
+                    <img
+                    src={MaheenProfile}
+                    className="imgBorder rounded-full z-30 "
+                    alt="maheen"
+                    />
                 </div>
             </div>
         </section>

@@ -1,5 +1,6 @@
 import { HERO } from "../constants"
-import MaheenProfile from "../assets/MaheenProfile.jpg";
+import profile from "../assets/profile.jpg"
+
 
 const Hero = () => {
     return (
@@ -18,7 +19,7 @@ const Hero = () => {
             <div className=" max-w-full md:w-1/2 lg:p-8 ">
                 <div className="flex relative justify-center items-center flex-col">
                     <img
-                    src={MaheenProfile}
+                    src={profile}
                     className="imgBorder rounded-full z-30 "
                     alt="maheen"
                     />

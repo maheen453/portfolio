@@ -17,8 +17,9 @@ body {
 }
 
 .imgBorder {
-  width: 450px;
-  height:450px;
-  border-radius: 9999px;
+  --c: white; 
+  --b: 8px; 
+  
   object-fit: cover;
+  outline: var(--b) solid var(--c);
 }

@@ -1,13 +1,7 @@
-import {
-  FaXTwitter,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaDiscord,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
-import projectImage1 from "../assets/project1.jpeg";
+import projectImage1 from "../assets/project1.png";
 import project2 from "../assets/JAudio.png";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
@@ -28,11 +22,43 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "Maheen Qayyum",
+  first: "Maheen",
+  last: "Qayyum",
   greet: "Hello there!",
-  description:
-    "",
+  location: "Toronto, ON",
+  school: "3rd Year @ Toronto Metropolitan University",
+  degree: "Computer Science Co-op Program (BSc)",
 };
+
+export const SOCIAL = [
+  {
+    href: "https://github.com/maheen453",
+    icon: (
+      <FaGithub
+        fontSize={35}
+        className="transition-transform duration-300 hover:scale-150"
+      />
+    ),
+  },
+  {
+    href: "https://www.linkedin.com/in/maheenq/",
+    icon: (
+      <FaLinkedin
+        fontSize={35}
+        className="transition-transform duration-300 hover:scale-150"
+      />
+    ),
+  },
+  {
+    href: "mailto:qayyummaheen@gmail.com",
+    icon: (
+      <MdEmail
+        fontSize={35}
+        className="transition-transform duration-300 hover:scale-150"
+      />
+    ),
+  },
+];
 
 export const PROJECTS = [
   {
@@ -53,35 +79,35 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Goofy Friend",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "An AI-powered web-app to bridge the generation gap with slang translation, image captioning, and a chatbot.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/maheen453/goofy-friend",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Clothing DBMS",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "A clothing catabase management system (DBMS) to automate the creation, deletion, population, and querying of inventory, orders, and suppliers",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+    githubLink: "https://github.com/maheen453/clothing-dbms",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "Goose",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "",
     image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
+    githubLink: "https://github.com/maheen453/Goose",
   },
   {
     id: 6,
-    name: "Chat Application",
+    name: "Scholar Web Scraper",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "",
     image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/maheen453/citco-webscraping",
   },
 ];
 
@@ -162,32 +188,5 @@ export const EDUCATION = [
     duration: "September 2008 - June 2012",
     description:
       "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
-  },
-];
-
-export const SOCIAL_MEDIA_LINKS = [
-  {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
-    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://www.linkedin.com/",
-    icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];

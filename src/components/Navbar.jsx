@@ -119,7 +119,7 @@ const Navbar = () => {
             bg-black/20 px-10 py-3 backdrop-blur-lg lg:flex">
             {/* Top Line */}
             <div
-            className="absolute top-0 h-1 bg-yellow-400 rounded-full transition-all duration-300"
+            className="absolute top-0 h-1 bg-sky-800 rounded-full transition-all duration-300"
             style={{
                 left: `${hoverStyle.left}px`,
                 width: `${hoverStyle.width}px`,
@@ -129,7 +129,7 @@ const Navbar = () => {
 
             {/* Bottom Line */}
             <div
-            className="absolute bottom-0 h-1 bg-yellow-400 rounded-full transition-all duration-300"
+            className="absolute bottom-0 h-1 bg-sky-800 rounded-full transition-all duration-300"
             style={{
                 left: `${hoverStyle.left}px`,
                 width: `${hoverStyle.width}px`,
@@ -146,8 +146,8 @@ const Navbar = () => {
                     onClick={(e) => handleLinkClick(e, item.href, index)}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
-                    className={`px-3 py-2 text-white transition-colors duration-200 ${
-                    activeHash === item.href ? "text-yellow-400" : "hover:text-yellow-400"
+                    className={`px-3 py-2 transition-colors duration-200 ${
+                    activeHash === item.href ? "text-sky-200" : "hover:text-sky-600"
                     }`}
                 >
                     {item.label}

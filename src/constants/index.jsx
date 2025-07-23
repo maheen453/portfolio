@@ -1,9 +1,9 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
-import projectImage1 from "../assets/project1.png";
+import projectImage1 from "../assets/portfolio.png";
 import project2 from "../assets/JAudio.png";
-import projectImage3 from "../assets/project3.jpeg";
+import projectImage3 from "../assets/goofy.png";
 import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";

@@ -4,9 +4,9 @@ import { MdEmail } from "react-icons/md";
 import projectImage1 from "../assets/portfolio.png";
 import project2 from "../assets/JAudio.png";
 import projectImage3 from "../assets/goofy.png";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage4 from "../assets/dbms.png";
+import projectImage5 from "../assets/goose.png";
+import projectImage6 from "../assets/webscraping.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";

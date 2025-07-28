@@ -13,7 +13,7 @@ const Projects = () => {
                             className="h-full w-full object-cover transition-transform duration-500
                             group-hover:scale-110" />
                         <div className="absolute inset-0 flex flex-col items-center justify-center
-                        text-white opacity-0 backdrop-blur-lg transition-opacity duration-500
+                        text-white bg-black/50 opacity-0 backdrop-blur-lg transition-opacity duration-500
                         group-hover:opacity-100">
                             <h3 className="mb-2 text-xl">{project.name}</h3>
                             <p className="mb-12 p-4">{project.description}</p>

@@ -17,13 +17,30 @@ const Projects = () => {
                         group-hover:opacity-100">
                             <h3 className="mb-2 text-xl">{project.name}</h3>
                             <p className="mb-12 p-4">{project.description}</p>
-                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer"
-                            className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300">
-                                <div className="flex items-center">
-                                    <span>Github</span>
-                                    <MdArrowOutward />
+                            <div className="flex flex-row gap-2">
+                                <a href={project.githubLink} target="_blank" rel="noopener noreferrer"
+                                className="rounded-full bg-blue-300 px-4 py-2 text-black hover:bg-blue-500">
+                                    <div className="flex items-center">
+                                        <span>Github</span>
+                                        <MdArrowOutward />
+                                    </div>    
+                                </a>
+                                <div className="flex flex-row gap-2">
+                                    {project.website && (
+                                        <a
+                                        href={project.website}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="rounded-full bg-sky-200 px-4 py-2 text-black hover:bg-sky-500"
+                                        >
+                                            <div className="flex items-center">
+                                                <span>Website</span>
+                                                <MdArrowOutward />
+                                            </div>
+                                        </a>
+                                    )}
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 ))}

@@ -84,6 +84,7 @@ export const PROJECTS = [
       "An AI-powered web-app to bridge the generation gap with slang translation, image captioning, and a chatbot.",
     image: projectImage3,
     githubLink: "https://github.com/maheen453/goofy-friend",
+    website: "https://goofy-app.salmonriver-ae02f359.canadacentral.azurecontainerapps.io/",
   },
   {
     id: 4,
@@ -97,15 +98,16 @@ export const PROJECTS = [
     id: 5,
     name: "Goose",
     description:
-      "",
+      "Chatbot to facilitate simple blockchain transaction management using Hedera Hashgraph, with beginner-friendly features.",
     image: projectImage5,
     githubLink: "https://github.com/maheen453/Goose",
+    website: "https://sillygoose.vercel.app/",
   },
   {
     id: 6,
     name: "Scholar Web Scraper",
     description:
-      "",
+      "A data analysis script that scrapes data from NSERC and Semantic Scholar,  which was later used to perform statistical analysis to explore correlations between Canadian research funding and citation counts in computer science.",
     image: projectImage6,
     githubLink: "https://github.com/maheen453/citco-webscraping",
   },
